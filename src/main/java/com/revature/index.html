@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specificity Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="high-specificity">This is a heading</h1>
+    <p id="important-paragraph" class="class1">
+      This is an important paragraph.
+    </p>
+    <p class="regular-paragraph class2">This is a regular paragraph.</p>
+    <button class="class1">Click me</button>
+    <span data-type="special" class="class2">This is a special span.</span>
+
+    <div id="low-specificity">This is a div with low specificity.</div>
+    <p class="class2">Another paragraph with class2.</p>
+
+    <p id="parent-element">Parent element with ID.</p>
+    <div class="child-element">Nested child element.</div>
+    <div class="child-element">Another nested child element.</div>
+  </body>
+</html>

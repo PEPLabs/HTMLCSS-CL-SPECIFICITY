@@ -1,0 +1,37 @@
+/*CSS Specificity: This is a ranking system in CSS that determines which style rule is applied to an element when multiple rules target the same element. 
+
+Here's the order of precedence (highest to lowest):
+
+1. Inline Styles (styles defined directly within the HTML element using the style attribute)
+2. IDs (#id-name)
+3. Classes, Pseudo-classes, Attribute Selectors (.class-name, :hover, [attribute=value])
+4. Elements and Pseudo-elements (h1, ::before)*/
+
+/*
+ TODO:
+
+  Imagine you're painting a landscape with a variety of colors. In this painting, each element has its own unique
+  color scheme. Your task is to enhance the visual appeal of these elements using CSS.
+ 
+ID Selector Specificity:
+   
+   Envision the element with ID "low-specificity" as a calm ocean. Paint it with a serene `blue` color.
+   Keep the `font size at 14px`.
+   For `font weight`, opt for a `normal` appearance.
+ 
+   Now, visualize the element with ID "high-specificity" as a vibrant sunset. Choose a bold `red` color
+   to capture the intensity. You can also play with RGBA values for a more dynamic effect. 
+   Adjust the `font size to 16px` for a balanced look.
+   To emphasize importance, make the `font weight bold`.
+ 
+Class Selector Specificity:
+   
+   Picture elements with class "class1" as lush green fields. Incorporate `green` tones elegantly. 
+   Set the `font size to 18px` to stand out gracefully.
+   Maintain a `normal font weight` for readability.
+ 
+   Imagine elements with class "class2" as a bright field of sunflowers. Paint them with a cheerful `yellow`
+   color to evoke warmth and positivity.
+   Increase the `font size to 20px` for prominence and energy. `Bold font weight` will further enhance the impact.
+
+ */
