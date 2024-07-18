@@ -95,8 +95,4 @@ public class SeleniumTest {
             Assertions.fail("Elements with classes not found on the page.");
         }
     }
-
-   
-        return "Unsupported Browser";
-    }
 }
