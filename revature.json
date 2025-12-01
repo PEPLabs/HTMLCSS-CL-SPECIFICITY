@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testIDSelectorSpecificity",
+          "label": "Verify CSS specificity for ID selectors",
+          "description": "Uses Selenium WebDriver to compare two elements with different ID-based CSS rules, asserting that the higher-specificity element has the expected color, font size, and font weight, and that the lower-specificity element has its own expected styles."
+        },
+        {
+          "methodName": "testClassSelectorSpecificity",
+          "label": "Verify CSS specificity for class selectors",
+          "description": "Uses Selenium WebDriver to validate that elements with different class-based CSS specificity receive the correct color, font size, and font weight based on their applied class selectors."
+        }
+      ]
+    }
+  ]
+}
